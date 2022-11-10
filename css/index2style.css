@@ -1,0 +1,28 @@
+.bbb{
+    background-color: rgb(136, 136, 136);
+}
+
+.d-flex{
+    position: relative;
+    bottom: -9px;
+}
+.btn-group{
+    position: relative;
+    top: 1px;
+    right: 30px;
+    color: white;
+    background-color: white;
+    border-radius: 5px;
+}
+.pagination{
+    position: relative;
+    left: 610px;
+    color: black;
+}
+.page-link{
+    color: black;
+}
+td a{
+    text-decoration: none;
+    color: black;
+}

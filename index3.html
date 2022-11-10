@@ -1,0 +1,110 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/index3style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/img/payment-ico.png" type="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="openIndex3.js"></script>
+  </head>
+  <body>
+    <header class="p-3 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index1.html" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="index2.html" class="nav-link px-2 text-white">Games</a></li>
+            <li><a href="index4.html" class="nav-link px-2 text-white">Statictics</a></li>
+            <li><a href="index4.html#4" class="nav-link px-2 text-white">Psychologists</a></li>
+            <li><a href="index1.html#social_contact" class="nav-link px-2 text-white">Contact</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+          </form>
+
+          <div class="text-end">
+            <a href="index5.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+            <a href="index6.html"><button type="button" class="btn btn-warning">Sign-up</button></a>
+          </div>
+        </div>
+      </div>
+      <div id="Prld" class="u-fixed u-pos-tl u-fit">
+        <div class="o-Prld u-relative js-cont">
+          <div class="o-Prld_I js-it u-absolute u-pos-tl" data-id="avocados" style="opacity: 0; transform: translate(0px, 100px);"></div>
+          <div class="o-Prld_I js-it u-absolute u-pos-tl" data-id="citrus" style="opacity: 0; transform: translate(0px, 100px);"></div>
+          <div class="o-Prld_I js-it u-absolute u-pos-tl" data-id="flowers" style="opacity: 0; transform: translate3d(0px, 51.968px, 0px);"></div>
+          <div class="o-Prld_I js-it u-absolute u-pos-tl" data-id="grapes" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale(0.001, 0.0011);"></div>
+          <div class="o-Prld_I js-it u-absolute u-pos-tl" data-id="tomatoes" style="opacity: 0; transform: translate(0px, 100px);"></div>
+        </div>
+      </div>
+    </header>
+      <h1 class="oplata" style="margin: 20px 0 0 30px;">Payment</h1>
+      <div class="Zopolnenie">
+        <div class="input-group mb-3" style="margin-left:20px; width: 900px;">
+          <input type="text" id="login" class="form-control" placeholder="Login">
+        </div>
+                
+        <div class="input-group mb-3" style="margin-left: 20px; width: 900px;">
+          <input type="text" id="mail" class="form-control" placeholder="Email">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+        <div class="input-group mb-3" style="margin-left: 20px; width: 900px;">
+          <input type="text" class="form-control" placeholder="Game name" list="browsers" name="browser" id="browser">
+          <datalist id="browsers">
+            <option value="1. Counter-Strike: Global Offensive">
+            <option value="2. Among us">
+            <option value="3. Pubg (PlayerUnknown's BattleGround)">
+            <option value="4. BattleField-2042">
+            <option value="5. Dota-2">
+            <option value="6. Cyberpunk-2077">
+            <option value="7. Forza Horizon 5">
+            <option value="8. Left 4 Dead 2">
+            <option value="9. Minecraft">
+            <option value="10. Grand Theft Auto V">
+            <option value="11. Call of Duty: Warzone">
+            <option value="12. World of Tanks">
+            <option value="13. Command & Conquer: Red Alert 3">
+          </datalist> 
+        </div>
+                
+        <label for="basic-url" class="form-label" style="margin: 20px 0 20px 20px;">Enter your card information</label>
+        <div class="input-group mb-3" style="margin: 0 0 0 20px; width: 920px;">
+          <input type="text" id="card_number" class="form-control" id="basic-url" placeholder="Card number (16 number)">
+        </div>
+        <div class="input-group mb-3" style="margin-left: 20px; width: 900px;">
+          <input type="text" id="name_surname" class="form-control" placeholder="Name and Surname of your payment card" style="margin:0 20px 0 0 ;">
+          <input type="text" class="form-control" placeholder="A three-digit number is located on the back of your payment card">
+        </div>
+                
+        <div class="input-group" style="margin-left: 20px;">
+          <span class="input-group-text">Personal request</span>
+          <textarea class="form-control" id="comment" aria-label="With textarea"></textarea>
+        </div>
+        <br>
+        <div class="form-check" style="margin-left: 20px;">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">Confirm that you are not a robot</label>
+          <div class= "ttt">
+            <button id="show">Send</button>
+            <div class="overlay"></div>
+            <div class="modal modal">
+              <span class="close">X</span>
+              <h3>Payment accepted</h3>
+              <p>$("name_surname").html(returnName()) your order has been accepted and the order has been send top your mail</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-danger"><a href="index3.html" style="text-decoration: none; color: white;">Clear</a></button>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>   
+  </body>
+</html>

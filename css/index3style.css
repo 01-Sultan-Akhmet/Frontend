@@ -1,0 +1,67 @@
+.d-flex{
+    position: relative;
+    bottom: -9px;
+    
+}
+.btn-group{
+    position: relative;
+    top: 1px;
+    right: 30px;
+    color: white;
+    background-color: white;
+    border-radius: 5px;
+}
+.Zopolnenie{
+    position:relative;
+    top: 15px;
+}
+.oplata{
+    position: relative;
+    left: 0px;
+}
+.form-check{
+    position: relative;
+    left: 0px;
+}
+.ttt{
+    position: relative;
+    top: 15px;
+    left: 0px;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top:15px;
+}
+.modal1{
+    background-color: white;
+    display: none;
+    width: 400px !important;
+    height: 200px !important;
+    top: 35% !important;
+    left: 20% !important;
+    z-index: 1000;
+}
+.overlay{
+    background-color: black;
+    bottom:0;
+    display: none;
+    left:0;
+    margin: 0;
+    opacity: 0.65;
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 999;
+}
+#show{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+
+}
